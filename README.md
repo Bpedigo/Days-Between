@@ -1,1 +1,1 @@
-This is a simple JFrame program. To use it enter the date in past and the program will tell you how many days it has been since that day and today!
+This is a simple Java JFrame program. The purpose of this program is count the number of days between today and a date you choose with the drop downs. This can be done for future and past dates. The future dates will be positvie numbers while days in the past will appear as negative numbers.
