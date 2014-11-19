@@ -65,7 +65,15 @@ public class ComboBoxDemo {
                 cal2.set(intyear, intmonth, intday);
 
                 int dbetween = daysBetween(cal.getTime(), cal2.getTime());
-                jlab.setText("The number of days ago is " + dbetween);
+                
+                if(dbetween >= 0)
+                {
+                    jlab.setText("The number of days aways is " + dbetween);
+                }
+                else{
+                    jlab.setText("The number of days ago is " + dbetween);
+                }
+                
 
             }
         });
